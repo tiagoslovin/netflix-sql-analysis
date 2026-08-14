@@ -18,7 +18,7 @@ Este projeto consiste em uma análise exploratória de dados sobre o catálogo g
 Contagem total de registros para entender a dimensão da base de dados.
 ```sql
 SELECT COUNT(*) AS total_titulos FROM netflix;
-```
+
 
 
 ## 2. Proporção de Conteúdo (Filmes vs Séries)
