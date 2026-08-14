@@ -44,8 +44,8 @@ FROM netflix
 WHERE country IS NOT NULL AND country != ''
 GROUP BY country
 ORDER BY total_producoes DESC
-LIMIT 10;
-```
+LIMIT 10;```
+
 ------------------------------------------------
 
 ## 4. Mapeamento do Conteúdo Brasileiro
