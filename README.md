@@ -21,7 +21,7 @@ SELECT COUNT(*) AS total_titulos FROM netflix;
 
 --------------------------------------------------
 
-## 2. Proporção de Conteúdo (Filmes vs Séries)
+## ```2. Proporção de Conteúdo (Filmes vs Séries)```
 Análise do percentual de cada tipo de mídia disponível na plataforma.
 
 SELECT 
