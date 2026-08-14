@@ -31,7 +31,7 @@ SELECT
 FROM netflix
 GROUP BY type;
 
-Insight: O catálogo é predominantemente composto por Filmes (~70%), enquanto Séries correspondem a cerca de 30%.```
+Insight: O catálogo é predominantemente composto por Filmes (~70%), enquanto Séries correspondem a cerca de 30%.
 
 ------------------------------------------------
 
@@ -45,7 +45,7 @@ FROM netflix
 WHERE country IS NOT NULL AND country != ''
 GROUP BY country
 ORDER BY total_producoes DESC
-LIMIT 10;```
+LIMIT 10;
 
 ------------------------------------------------
 
@@ -59,7 +59,7 @@ SELECT
     duration
 FROM netflix
 WHERE country LIKE '%Brazil%'
-ORDER BY release_year DESC;```
-```
+ORDER BY release_year DESC;
+
 ------------------------------------------------
 
