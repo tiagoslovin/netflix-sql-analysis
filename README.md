@@ -13,6 +13,7 @@ Este projeto consiste em uma análise exploratória de dados sobre o catálogo g
 ##  Perguntas de Negócio e Consultas Realizadas
 
 ------------------------------------------------
+
 ## 1. Volume total do Catálogo
 Contagem total de registros para entender a dimensão da base de dados.
 ```sql
