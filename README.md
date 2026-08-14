@@ -19,7 +19,7 @@ Contagem total de registros para entender a dimensão da base de dados.
 ```sql
 SELECT COUNT(*) AS total_titulos FROM netflix;
 ```
---------------------------------------------------
+
 
 ## 2. Proporção de Conteúdo (Filmes vs Séries)
 Análise do percentual de cada tipo de mídia disponível na plataforma.
@@ -32,7 +32,7 @@ FROM netflix
 GROUP BY type;
 
 Insight: O catálogo é predominantemente composto por Filmes (~70%), enquanto Séries correspondem a cerca de 30%.```
-------------------------------------------------
+
 
 ## 3. Principais Países Produtores
 Identificação dos 10 países com maior volume de produções cadastradas.
