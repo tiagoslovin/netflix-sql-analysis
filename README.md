@@ -18,7 +18,7 @@ Este projeto consiste em uma análise exploratória de dados sobre o catálogo g
 Contagem total de registros para entender a dimensão da base de dados.
 ```sql
 SELECT COUNT(*) AS total_titulos FROM netflix;
-
+```
 
 
 ## 2. Proporção de Conteúdo (Filmes vs Séries)
@@ -32,7 +32,7 @@ FROM netflix
 GROUP BY type;
 
 Insight: O catálogo é predominantemente composto por Filmes (~70%), enquanto Séries correspondem a cerca de 30%.
-
+```
 ------------------------------------------------
 
 ## 3. Principais Países Produtores
@@ -46,7 +46,7 @@ WHERE country IS NOT NULL AND country != ''
 GROUP BY country
 ORDER BY total_producoes DESC
 LIMIT 10;
-
+```
 ------------------------------------------------
 
 ## 4. Mapeamento do Conteúdo Brasileiro
@@ -60,6 +60,6 @@ SELECT
 FROM netflix
 WHERE country LIKE '%Brazil%'
 ORDER BY release_year DESC;
-
+```
 ------------------------------------------------
 
