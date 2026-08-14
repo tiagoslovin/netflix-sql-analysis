@@ -33,6 +33,7 @@ GROUP BY type;
 
 Insight: O catálogo é predominantemente composto por Filmes (~70%), enquanto Séries correspondem a cerca de 30%.```
 
+------------------------------------------------
 
 ## 3. Principais Países Produtores
 Identificação dos 10 países com maior volume de produções cadastradas.
